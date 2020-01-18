@@ -10,7 +10,7 @@ spring:
             non_contextual_creation: true
     show-sql: true
   datasource:
-    url: jdbc:postgresql://3.19.213.153:5432/postgres
+    url: jdbc:postgresql://18.221.235.67/:5432/postgres
     username: postgres
     password: malviya
     driver-class-name: org.postgresql.Driver
