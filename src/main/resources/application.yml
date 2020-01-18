@@ -1,0 +1,19 @@
+server:
+  port: 9007
+spring:
+  jpa:
+    database: POSTGRESQL
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://3.19.213.153:5432/postgres
+    username: postgres
+    password: malviya
+    driver-class-name: org.postgresql.Driver
+  hikari:
+    connection-timeout: 20000
+    maximumPoolSize: 5
